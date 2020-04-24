@@ -2,77 +2,194 @@
 <html lang="en">
 
 <head>
-    <title> My Movies Website </title>
 
-    <meta charset="UTF-8" />
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="test2.html">
+    <link rel="stylesheet" href="AboutUs.html">
+    <link rel="stylesheet" href="admin.html">
+    <!-- Bootstrap 3 -->
 
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <title>My movies</title>
 </head>
+<header>
+   <!-- Navigation Menu -->
+   <nav class="navbar navbar-expand-lg navbar-light">
 
+    <a class="navbar-brand" >My Movies</a>
 
-<meta charset="UTF-8">
-<title>My movies</title>
-</head>
+    
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link page-scroll" href="#">Movies <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="admin.html">Admin</a>
+            </li>
+            <li class="search">
+                <a class="nav-link page-scroll"><input type="text" textbox="Search" /></a>
+            </li>
+            <li class="search">
+                <a class="nav-link page-scroll" ><input type="button" value="search" /></a>
+            </li>
+            
+        </ul>
+    </div>
+
+</nav>
+  </header>
 
 <body>
-    <!-- header -->
-    <div class="header-bar">
-        <div class="fixed-width">
-            <div id="logo">
-                <h3 style="font-family:'Century Gothic';font-style: italic ;font-weight: bold">MY MOVIES</h3>
+
+
+
+
+    <!--this is for the slider-->
+
+    <div class="page-wrapper">
+        <div class="post-slider">
+            <i class="fa fa-chevron-left prev"></i>
+            <i class="fa fa-chevron-right next"></i>
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="images/mov1.jpg" alt="" class="slider-img">
+
+                </div>
+                <div class="post">
+                    <img src="images/mov2.jpg" alt="" class="slider-img">
+                </div>
+                <div class="post">
+                    <img src="images/mov3.jpg" alt="" class="slider-img">
+                </div>
+                <div class="post">
+                    <img src="images/mov4.jpg" alt="" class="slider-img">
+
+                </div>
+                <div class="post">
+                    <img src="images/mov5.jpg" alt="" class="slider-img">
+
+                </div>
             </div>
-            <ul>
+        </div>
 
-                <li>Movies</li>
-                <li>Serials</li>
-
-            </ul>
-            
-        </div>
-        <!--this is for fixed-width-->
-        <div id="search">
-            <input type="text" textbox="Search" />
-        </div>
-        <div id="search-button">
-            <input type="button" value="search" />
-        </div>
     </div>
-    <!--this is for fixed-width-->
+    <!--Slider-->
 
-    </div><!-- this is for the header bar-->
+    <!-- Trailer Video Modal -->
 
 
-
+    <!-- Main Page Content -->
 
     <div class="container">
-        <div class="content">
+        <div class="row row-centered">
 
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="https://upload.wikimedia.org/wikipedia/en/d/d4/Divergent.jpg" alt="Divergent"
+                        data-trailer-youtube-id="336qJITnDi0" data-toggle="modal" data-target="#trailer">
+                    <a href="test2.html"><button class="btn btn-sm btn-block movie-btn" data-toggle="popover"
+                            data-placement="top auto" title="Divergent"
+                            data-content="<p>A thrilling action-adventure film set in a world where people are divided into distinct factions based on human virtues.</p>">Divergent</button></a>
+                </div>
+            </div>
 
-        </div><!-- this is for the content-->
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="https://upload.wikimedia.org/wikipedia/en/a/af/Insurgent_poster.jpg"
+                        alt="The Divergent Series: Insurgent" data-trailer-youtube-id="sX9-l0iO5w4" data-toggle="modal"
+                        data-target="#trailer">
+                    <a href="test2.html"><button class="btn btn-sm btn-block movie-btn" data-toggle="popover"
+                            data-placement="top auto" title="The Divergent Series: Insurgent"
+                            data-content="<p>Insurgent raises the stakes for Tris as she searches for allies and answers in the ruins of a futuristic Chicago.</p>">The
+                            Divergent Series: Insurgent</button></a>
+                </div>
+            </div>
 
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="https://upload.wikimedia.org/wikipedia/en/f/f8/Allegiantfilmposter.jpg"
+                        alt="The Divergent Series: Allegiant" data-trailer-youtube-id="5PSNL1qE6VY" data-toggle="modal"
+                        data-target="#trailer">
+                    <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto"
+                        title="The Divergent Series: Allegiant"
+                        data-content="<p>After the earth-shattering revelations of INSURGENT, Tris must escape with Four and go beyond the wall enclosing Chicago.</p>">The
+                        Divergent Series: Allegiant</button>
+                </div>
+            </div>
 
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="http://www.thedivergentseries.movie/ascendant/assets/img/poster/poster.jpg"
+                        alt="The Divergent Series: Ascendant" data-trailer-youtube-id="6DWqWGwIATQ" data-toggle="modal"
+                        data-target="#trailer">
+                    <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto"
+                        title="The Divergent Series: Ascendant"
+                        data-content="<p>After Allegiant is Ascendant which is to arrive in 2017</p>">The Divergent
+                        Series: Ascendant</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="https://upload.wikimedia.org/wikipedia/en/2/29/Startrekposter.jpg" alt="Star Trek"
+                        data-trailer-youtube-id="iGAHnZ555nI" data-toggle="modal" data-target="#trailer">
+                    <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto"
+                        title="Star Trek"
+                        data-content="<p>The greatest adventure of all time begins with Star Trek, the incredible story of a young crew's maiden voyage onboard the most advanced starship ever created: the U.S.S. Enterprise.</p>">Star
+                        Trek</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+                <div class="thumbnail">
+                    <img class="img-responsive movie-img"
+                        src="https://upload.wikimedia.org/wikipedia/en/5/50/StarTrekIntoDarkness_FinalUSPoster.jpg"
+                        alt="Star Trek Into Darkness" data-trailer-youtube-id="sJNyGFqgyag" data-toggle="modal"
+                        data-target="#trailer">
+                    <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto"
+                        title="Star Trek Into Darkness"
+                        data-content="<p>When a ruthless mastermind, Khan (Benedict Cumberbatch,) declares a one-man war on the Federation, Captain Kirk (Chris Pine), Spock (Zachary Quinto), and the crew of the U.S.S. Enterprise set out on their most explosive manhunt of all time.</p>">Star
+                        Trek Into Darkness</button>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <!-- this is for the container>
-        < !-- footer -->
-        <footer>
-            <p class="copyright">© My Movies</p>
-        </footer><!-- this is for the footer -->
+
+
+    <script src="js/jquery-3.5.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+
 
 
 </body>
+<footer>
+    <div class="foot">Copyright MyMovies</div>
+</footer>
 
 </html>
