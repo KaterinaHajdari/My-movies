@@ -1,0 +1,114 @@
+{
+  "Movies": [
+    {
+      "Tittle": "Once Upon a Time Hollywood",
+      "MoviePath": "/ONCE UPON A TIME IN HOLLYWOOD.mp4",
+      "ImagePath": "images/Posters/onceupon220x320.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "Tittle": "BloodShoot",
+      "MoviePath": "/BLOODSHOT - Official Trailer (HD).mp4",
+      "ImagePath": "images/Posters/Bloodshoot220x320.jpg"
+    },
+    {
+      "id": 3,
+      "Tittle": "Knives Out",
+      "MoviePath": "/Knives Out.mp4",
+      "ImagePath": "images/Posters/Knives Out220x320.jpg"
+    },
+    {
+      "id": 4,
+      "Tittle": "Disney Mulan",
+      "MoviePath": "/Disney's Mulan _ Official Trailer.mp4",
+      "ImagePath": "images/Posters/disney mulan220x320.jpg"
+    },
+    {
+      "id": 5,
+      "Tittle": "The Lion King",
+      "MoviePath": "/The Lion King Official Trailer.mp4",
+      "ImagePath": "images/Posters/lion king220x320.jpg"
+    },
+    {
+      "id": 6,
+      "Tittle": "BAD BOYS FOR LIFE",
+      "MoviePath": "/BAD BOYS FOR LIFE - Official Trailer.mp4",
+      "ImagePath": "images/Posters/bad boys220x320.jpg"
+    },
+    {
+      "id": 7,
+      "Tittle": "The Tourist",
+      "MoviePath": "/The Tourist.mp4",
+      "ImagePath": "images/Posters/the tourist220x320.jpg"
+    },
+    {
+      "id": 8,
+      "Tittle": "How to Train your Husband",
+      "MoviePath": "/How To Train your Husband  - Trailer (2017).mp4",
+      "ImagePath": "images/Posters/how to train husband220x320.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin1",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "Admin2",
+      "password": "12345"
+    }
+  ],
+  "Serials": [
+    {
+      "id": 1,
+      "Tittle": "Money Heist",
+      "MoviePath": "/Money Heist - Part 1 _ Official Trailer _ Netflix.mp4",
+      "ImagePath": "images/Posters/La-casa-de-papel220x320.jpg"
+    },
+    {
+      "id": 2,
+      "Tittle": "Orange is the new black",
+      "MoviePath": "/Orange Is The New Black - Season 1 - Official Trailer [HD].mp4",
+      "ImagePath": "images/Posters/orange_is_theNewBlack220x320.jpg"
+    },
+    {
+      "id": 3,
+      "Tittle": "Designated Survivor",
+      "MoviePath": "/Designated Survivor - Official Trailer.mp4",
+      "ImagePath": "images/Posters/designated_survivor.jpg220x320.jpg"
+    },
+    {
+      "id": 4,
+      "Tittle": "Peaky Blinders",
+      "MoviePath": "/Peaky Blinders - Season 1 _ Trailer.mp4",
+      "ImagePath": "images/Posters/peaky_blinders220x320.jpg"
+    },
+    {
+      "id": 6,
+      "Tittle": "The Crown",
+      "MoviePath": "/The Crown _ Official Trailer _ Netflix.mp4",
+      "ImagePath": "images/Posters/theCrown220x320.jpg"
+    },
+    {
+      "id": 7,
+      "Tittle": "Altered Carbon",
+      "MoviePath": "/Altered Carbon Season 1 Trailer _ Rotten Tomatoes TV.mp4",
+      "ImagePath": "images/Posters/AlteredCarbon220x320.jpg"
+    },
+    {
+      "id": 8,
+      "Tittle": "House of Cards",
+      "MoviePath": "/HOUSE OF CARDS _ TRAILER _ Netflix Original Series _ HD.mp4",
+      "ImagePath": "images/Posters/House_of_Cards220x320.jpg"
+    },
+    {
+      "Tittle": "Freud",
+      "MoviePath": "/Freud _ Official Trailer _ Netflix.mp4",
+      "ImagePath": "images/Posters/Freud220x320.jpg",
+      "id": 9
+    }
+  ]
+}

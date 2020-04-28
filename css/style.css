@@ -2,8 +2,8 @@
     display: inline-block;
     margin:0 auto;
     
+    
 }
-
 
 #wrapper{
     width: 1170px;
@@ -12,11 +12,15 @@
 /*HEADER*/
 
 header {
-	padding: 10px 0;
+    position: relative;
+  top: 0;
+  bottom: 1500px;
+  width: 100%;
+	padding: 5px 0;
 	z-index: 10;
     background: red;
     
-    width: 100%;
+    
     box-shadow: 0 0 10px 5px rgba(50,50,50,0.12);
     transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -24,16 +28,12 @@ header {
     -o-transition: all .4s ease-in-out;
 }
 
-header.shrink {
-    padding: 0;
-}
 
-.shrink .navbar-light .navbar-nav .nav-link {
-    font-size: 16px;
-}
 
 .navbar-light .navbar-nav .nav-link {
-	color:white;
+
+    overflow: hidden;
+	color:white ;
 	font-size: 20px;
     padding-left: 80px;
     padding-right:10px;
@@ -48,7 +48,14 @@ header.shrink {
 	color:black;
 }
 
-
+.navbar-light .navbar-nav .nav-link a{
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .navbar-collapse {
 	justify-content: flex-end;
@@ -61,28 +68,80 @@ header.shrink {
 }
 
 
+.NavAdmin
+{
+    display: none;
+    cursor: pointer;
+}
 
 
 
+@media screen and (max-width: 600px) {
+    .navbar-collapse a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+  .container #MovieContainer{
+      padding-bottom: 50px;
+
+  }
+/* Admin page */
+
+.movie-elements{
+    margin:0 auto;
+    padding:20px 40px 70px 70px;
+}
+
+h5 {
+    display: inline-block;
+    vertical-align: middle;
+    padding:20px;
+}
+
+#myProgress {
+    width: 70%;
+    background-color: grey;
+    float:right;
+  
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+  }
+  #myFile{
+     margin:0 auto;
+     text-align: center;
+  }
+  
+.movie-elements #btnSend {
+    
+    margin:0 500px  ;
+   
+    
+      
+  }
 
 footer {
-    position: relative;
-    height: 40px;
-    width: 100%;
-    background-color:red;
-}
-footer .foot {
-    position: absolute;
-    width: 100%;
-    color:white;
-    line-height: 20px;
-    font-size: 0.7em;
-    text-align: center;
-    bottom:0;
+position:fixed;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+    
+background-color:red;
 }
 
 
- 
+
+ /* homepage slider */
 
 
 .post-slider
@@ -140,7 +199,7 @@ cursor: pointer;
     padding: 0 5px;
 }
 
-/*test2 css */
+/*playMovie*/
 
 .hanging-close {
     position: absolute;
@@ -160,8 +219,8 @@ cursor: pointer;
     border: none;
     height:500px;
     position: absolute;
-    width: 500px;
-    left: 0;
+    width:500px;
+    left: 30px;
     top: 0;
     background-color: white;
 }
@@ -172,10 +231,7 @@ cursor: pointer;
 .thumbnail{
     padding: 10px;
 }
-.popover-title{
-    font-weight: bold;
-    text-align: center;
-}
+
 /* centered columns styles */
 .row-centered {
     text-align:center;
@@ -194,6 +250,57 @@ cursor: pointer;
 }
 
 
+  /*Login */
 
- 
- 
+
+
+.login-container-fluid{
+padding-top: 20vh;
+}
+/* set form background colour*/
+.form-container{
+    
+    background:red;
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 80px;
+}
+  
+  
+ /* List Admin Table */
+ #tbl-movie-list {
+     margin:0 auto;
+     
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #tbl-movie-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tbl-movie-list tr:nth-child(even){
+      
+      background-color: #f2f2f2;}
+  
+  #tbl-movie-list tr:hover {background-color: #ddd;}
+  
+ a1:hover{
+ color:red;
+ }
+
+
+ .txtMoviePath
+ {
+    width: 400px;
+ }
+
+ .lblError
+ {
+     color: red;
+     display: none;
+ }
